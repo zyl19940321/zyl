@@ -1,22 +1,14 @@
 package com.zyl.leetcode.common;
 
-// 单向链表定义
-public class ListNode {
 
-    // 下一个节点
-    public ListNode next;
 
-    public Integer value;
+ public class ListNode {
+     public int val;
+     public ListNode next;
+     public ListNode() {}
+     public ListNode(int val) { this.val = val; }
+     public ListNode(int val, ListNode next) {
+      this.val = val; this.next = next; }
+ }
 
-    public ListNode(Integer value){
-        this.value = value;
-    }
 
-    public ListNode getNext() {
-        return next;
-    }
-
-    public void setNext(ListNode next) {
-        this.next = next;
-    }
-}

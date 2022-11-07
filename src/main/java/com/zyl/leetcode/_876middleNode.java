@@ -24,10 +24,10 @@ public class _876middleNode {
         ListNode nodeA3 = new ListNode(2);
         ListNode nodeA4 = new ListNode(3);
         ListNode nodeA5 = new ListNode(4);
-        nodeA1.setNext(nodeA2);
-        nodeA2.setNext(nodeA3);
-        nodeA3.setNext(nodeA4);
-        nodeA4.setNext(nodeA5);
+        nodeA1.next  =(nodeA2);
+        nodeA2.next  =(nodeA3);
+        nodeA3.next  =(nodeA4);
+        nodeA4.next  =(nodeA5);
 
         ListNode nodeB1 = new ListNode(1);
         ListNode nodeB2 = new ListNode(2);
@@ -35,16 +35,16 @@ public class _876middleNode {
         ListNode nodeB4 = new ListNode(3);
         ListNode nodeB5 = new ListNode(3);
         ListNode nodeB6 = new ListNode(7);
-        nodeB1.setNext(nodeB2);
-        nodeB2.setNext(nodeB3);
-        nodeB3.setNext(nodeB4);
-        nodeB4.setNext(nodeB5);
-        nodeB5.setNext(nodeB6);
+        nodeB1.next  = nodeB2;
+        nodeB2.next  = nodeB3;
+        nodeB3.next  = nodeB4;
+        nodeB4.next  = nodeB5;
+        nodeB5.next  = nodeB6;
 
         ListNode result = middle(nodeB1);
 
         while (result!=null){
-            System.out.println(result.value);
+            System.out.println(result.val);
             result = result.next;
         }
 
