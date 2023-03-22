@@ -2,7 +2,7 @@ package com.zyl.leetcode;
 
 import com.zyl.leetcode.common.ListNode;
 
-public class _206reverseList {
+public class _206反转链表 {
 
     public static ListNode reverseList(ListNode head){
 

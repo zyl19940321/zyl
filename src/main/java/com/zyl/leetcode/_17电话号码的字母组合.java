@@ -5,7 +5,7 @@ import java.util.List;
 
 //输入：digits = "23"
 //输出：["ad","ae","af","bd","be","bf","cd","ce","cf"]
-public class _17letterCombinations {
+public class _17电话号码的字母组合 {
 
    static String[] map = new String[]{"","","abc","def","ghi","jkl","mno","pqrs",
             "tuv","wxyz"};
@@ -17,7 +17,6 @@ public class _17letterCombinations {
         if(digits.equals("")){
             return res;
         }
-
         dfs(digits,0,"");
         return res;
     }
@@ -41,7 +40,6 @@ public class _17letterCombinations {
     }
 
     public static void main(String[] args) {
-
         List<String> s =letterCombinations("23");
         for(String ss:s){
             System.out.println(ss);

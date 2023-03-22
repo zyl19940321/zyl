@@ -4,7 +4,7 @@ import com.zyl.leetcode.common.ListNode;
 
 import java.util.List;
 
-public class _86 {
+public class _86分隔链表 {
 
 
     public static void main(String[] args){

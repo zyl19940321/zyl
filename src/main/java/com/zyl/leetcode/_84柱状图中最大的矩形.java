@@ -2,7 +2,7 @@ package com.zyl.leetcode;
 
 import java.util.Stack;
 
-public class _84 {
+public class _84柱状图中最大的矩形 {
 
     public static void main(String[] args) {
         int[] heights = new int[]{2,1,5,6,2,3};

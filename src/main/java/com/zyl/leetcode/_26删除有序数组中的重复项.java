@@ -3,7 +3,7 @@ package com.zyl.leetcode;
 // 删除有序数组的重复数字，返回长度
 //输入：nums = [0,0,1,1,1,2,2,3,3,4]
 //输出：5, nums = [0,1,2,3,4]
-public class _26removeDuplicates {
+public class _26删除有序数组中的重复项 {
 
     public static int removeDuplicates(int[] nums){
 

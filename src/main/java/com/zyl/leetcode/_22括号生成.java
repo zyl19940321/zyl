@@ -5,7 +5,7 @@ import java.util.List;
 
 //输入：n = 3
 //输出：["((()))","(()())","(())()","()(())","()()()"]
-public class _22generateParenthesis {
+public class _22括号生成 {
 
     public static List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();

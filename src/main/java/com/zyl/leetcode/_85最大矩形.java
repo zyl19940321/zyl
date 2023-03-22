@@ -1,6 +1,6 @@
 package com.zyl.leetcode;
 
-public class _85 {
+public class _85最大矩形 {
 
     public static void main(String[] args) {
         int[] heights = new int[]{2,1,5,6,2,3};
@@ -24,12 +24,12 @@ public class _85 {
 
             for(int j = 0;j<matrix[0].length;j++){
                 if(matrix[i][j]=='1'){
-                    heights[j]++;
+                            heights[j]++;
                 }else{
                     heights[j]=0;
                 }
             }
-            res = Math.max(res,_84.largestRectangleArea(heights));
+            res = Math.max(res, _84柱状图中最大的矩形.largestRectangleArea(heights));
         }
         return res;
     }

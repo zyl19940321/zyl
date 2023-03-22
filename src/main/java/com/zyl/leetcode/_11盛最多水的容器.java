@@ -6,7 +6,7 @@ package com.zyl.leetcode;
 //输入：[1,8,6,2,5,4,8,3,7]
 //输出：49
 //
-public class _11maxArea {
+public class _11盛最多水的容器 {
 
     public static int maxArea(int[] height) {
         int area = 0;

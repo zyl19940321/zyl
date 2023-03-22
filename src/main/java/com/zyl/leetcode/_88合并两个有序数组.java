@@ -1,6 +1,6 @@
 package com.zyl.leetcode;
 
-public class _88mergeArray {
+public class _88合并两个有序数组 {
 
     // 双指针
     public static void mergeArray(int[] nums1,int m,int[] nums2,int n){

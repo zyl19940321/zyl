@@ -7,7 +7,7 @@ import java.util.List;
 // 请你找出并返回满足下述全部条件且不重复的四元组 [nums[a], nums[b], nums[c], nums[d]]
 // （若两个四元组元素一一对应，则认为两个四元组重复）：
 
-public class _18fourSum {
+public class _18四数之和 {
 
     public static void main(String[] args) {
 
